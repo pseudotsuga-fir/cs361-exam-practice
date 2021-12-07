@@ -10,25 +10,11 @@ class Cube
 
   # Calculate the volume (w x h x d)
   def volume
-        return @width * @height / @depth
-end
+    return @width * @height / @depth
+  end
+
 end
 
 
 cube = cube.new(10, 20, 30)
 puts cube.volume
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
